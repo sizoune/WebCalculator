@@ -98,7 +98,7 @@ class Calculator{
     
     updateDisplay(){
         this.currOperandText.innerHTML = this.doFormatNumber(this.currOperand);
-        this.prevOperandText.innerHTML = this.prevOperand;
+        this.prevOperandText.innerHTML = this.doFormatNumber(this.prevOperand);
     }
 }
 
