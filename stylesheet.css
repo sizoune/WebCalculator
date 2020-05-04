@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url(foto3.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+
+@font-face{
+    font-family: digital;
+    src: url(DS-DIGI.TTF)
+}
+.box{
+    margin-top: 7%;
+}
+
+
+.box-display{
+    background-color: #142850;
+    width: 300px;
+    padding: 25px 25px 5px 25px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 0 7px black;  
+}
+
+.box-display p{
+    color: white;
+    font-size: 12pt;
+    font-family: digital;
+}
+
+.display{
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(188, 255, 162);
+    font-size: 30px;
+    font-family: digital;
+    padding: 0 5px;
+    border: 1px solid rgb(87, 128, 72);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.box-kalkulator{
+    width: 300px;
+    background-color: #27496d;
+    padding: 10px 25px;
+    border-radius: 0px 0px  20px 20px;
+    box-shadow: 0 0 7px black;
+}
+
+.prev-operand {
+    font-size: 1.5rem;
+}
+
+table{
+    position: relative;
+    right: 1%;
+}
+
+
+.btn-nomor{
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    background-color: #00909e;
+    border: 0;
+    border-radius: 10px;
+    color: #DAE1E7;
+    box-shadow: 0 5px #066a74;
+    cursor: pointer;
+    transform: 0.5s;
+    font-weight: bold;
+}
+
+.btn-nomor:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.smdgn{
+    background-color: rgb(19, 18, 18);
+    box-shadow: 0 5px rgb(12, 12, 12);
+    height: 82px;
+    color: #DAE1E7;
+}
+.ac{
+    background-color: #c70039;
+    box-shadow: 0 5px #900c3f;
+    color: #DAE1E7;
+}
+.del{   
+    background-color: #ca5116;
+    box-shadow: 0 5px rgb(168, 92, 5);
+    color: #DAE1E7;
+}

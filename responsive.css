@@ -1,0 +1,8 @@
+@media (max-width: 670px){
+    body{
+        background-image: url(none);
+    }
+    .box{
+        margin-right: 40px;
+   }
+}
